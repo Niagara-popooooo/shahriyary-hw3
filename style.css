@@ -42,45 +42,20 @@ div:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-song and the song writers -> {
+.song{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
-
-
-song writers -> {
+.songwriters{
     color: #666666;
     font-size: smaller;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px #666666;
 }
 
-song writers while mouseover{
+.songwriters:hover{
     color: #2e2e2e;
-}
-
-.play,
-.back,
-.for{
-    border-color: #ffffff;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-}
-
-
-.back
-.for
-.play while mouseover -> {
-    border-color: #bebebe;
+    transition: 0.3s;
+    cursor: pointer;
 }
