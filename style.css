@@ -29,6 +29,10 @@ div:hover{
     padding-top: 7px;
 }
 
+.song{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 
 
 
@@ -59,6 +63,17 @@ div:hover{
     margin-top: 7px;
     border-radius: 3%;
 }
+.songwriters{
+    color: #666666;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px #666666;
+}
+
+.songwriters:hover{
+    color: #2e2e2e;
+    transition: 0.3s;
+    cursor: pointer;
 
 .cover:hover{
     box-shadow: 1px 1px 7px 1px rgb(44, 44, 44);
