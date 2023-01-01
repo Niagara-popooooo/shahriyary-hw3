@@ -29,6 +29,19 @@ div:hover{
     padding-top: 7px;
 }
 
+.cover{
+    height: 230px;
+    width: 230px;
+    margin-top: 7px;
+    border-radius: 3%;
+}
+
+.cover:hover{
+    box-shadow: 1px 1px 7px 1px rgb(44, 44, 44);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 /*
 song and the song writers -> {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
