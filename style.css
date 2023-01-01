@@ -47,6 +47,11 @@ div:hover{
     cursor: pointer;
 }
 
+.play, .back, .for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 .cover{
     height: 230px;
     width: 230px;
@@ -54,8 +59,24 @@ div:hover{
     border-radius: 3%;
 }
 
+.back, .for, .play:hover{
+    border-color: #bebebe;
 .cover:hover{
     box-shadow: 1px 1px 7px 1px rgb(44, 44, 44);
     transition: 0.3s;
     cursor: pointer;
+}
+
+li{
+    display: inline-block;
+    padding-right: 28px;
+}
+
+.time{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+input{
+    width: 235px;
 }
