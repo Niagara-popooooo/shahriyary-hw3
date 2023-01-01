@@ -33,35 +33,6 @@ div:hover{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-shadow: 2px 2px 5px black;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cover{
-    height: 230px;
-    width: 230px;
-    margin-top: 7px;
-    border-radius: 3%;
 }
 .songwriters{
     color: #666666;
@@ -74,6 +45,14 @@ div:hover{
     color: #2e2e2e;
     transition: 0.3s;
     cursor: pointer;
+}
+
+.cover{
+    height: 230px;
+    width: 230px;
+    margin-top: 7px;
+    border-radius: 3%;
+}
 
 .cover:hover{
     box-shadow: 1px 1px 7px 1px rgb(44, 44, 44);
