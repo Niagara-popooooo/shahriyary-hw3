@@ -6,18 +6,23 @@ html{
     height: 100%;
     background-image: linear-gradient(#0046ae, #9198e5);
 }
-/*
-bigpart -> {
+
+div{
     height: 400px;
     width: 270px;
-    rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674)
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    margin: 30px auto;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 2px 2px 20px 2px rgb(44, 44, 44);
 }
 
-while mouseover -> {
-   rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792)
+div:hover{
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+    transition: 0.5s;
 }
 
-
+/*
 music player part ->{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
