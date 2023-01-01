@@ -12,6 +12,7 @@ div{
     width: 270px;
     background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
     margin: 30px auto;
+    margin-top: 100px;
     border-radius: 5%;
     text-align: center;
     box-shadow: 2px 2px 20px 2px rgb(44, 44, 44);
